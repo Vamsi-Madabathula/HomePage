@@ -304,6 +304,28 @@ background: rgba(250, 220, 220, 0.6);  /* Light pink, semi-transparent */
     line-height: 100%;
     color: #000000;
 }
+#mediators-link{
+    text-decoration: none;
+    width: 170px;
+    height: 31px;
+    position: absolute;
+    top: 1477px;
+    left: 363px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+    border: 2px solid black;
+}
+.arrow1{
+    width: 13px;
+    height: 10px;
+    position: absolute;
+    top:  1482px;
+    left: 510px;
+    font-size: 10px;
+}
 #opleidingen-link{
     text-decoration: none;
     width: 170px;
@@ -316,7 +338,17 @@ background: rgba(250, 220, 220, 0.6);  /* Light pink, semi-transparent */
     font-size: 16px;
     line-height: 100%;
     color: #000000;
+        border: 2px solid black;
+
   
+}
+.arrow2{
+ width: 13px;
+ height: 10px;
+ position: absolute;
+ top: 1487px;
+ left: 920px;
+ font-size: 10px;
 }
 #incompany-link{
     text-decoration: none;
@@ -327,16 +359,141 @@ background: rgba(250, 220, 220, 0.6);  /* Light pink, semi-transparent */
     left: 1111px;
     font-family: Inter;
     font-weight: 400;
-    font-size: 16px;
+    font-size : 16px;
     line-height: 100%;
     color: #000000;
-
+border: 2px solid black;
 
 }
 .arrow3{
   width: 13px;
   height: 10px;
   position: absolute;
-  top: 1482px;
+  top: 1487px;
   left: 1356px;
+  font-size: 10px;
 }
+#rectangle{
+    width: 1767px;
+    height: 334px;
+    position: absolute;
+    top: 1599px;
+    background-color:  #C4CDD34A;
+
+
+}
+#rectangle-para{
+    width: 1179px;
+    height: 184px;
+    position: absolute;
+    top: 95px;
+    left: 293px;
+    font-family: optima;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    text-align: center;
+    border: 2px solid black;
+}
+#rectangle-para-text{
+    color: #9F8A58;
+
+}
+#meeting-image{
+    width: 449px;
+    height: 336px;
+    position: absolute;
+    top: 2019px;
+    left: 366px;
+}
+#img-heading{
+    width: 171px;
+    height: 63px;
+    position: absolute;
+    top: 2006px;
+    left: 855px;
+    font-family: optima;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 100%;
+    color:#273F6A;
+
+}
+#img-para{
+    width: 543px;
+    height: 88px;
+    position: absolute;
+    top: 2080px;
+    left: 855px;
+    font-family: optima;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #9F8A58;
+
+}
+#img-details{
+    width: 488px;
+    height: 405px;
+    position: absolute;
+    top: 2220px;
+    left: 858px;
+    border: 2px solid black;
+}
+
+ 
+ .para-1{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    line-height: 1.5;
+ }
+ .para-2{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+ }
+ /* .event-text{
+   
+    padding: 19px 0;
+    
+ } */
+ .arrow4{
+    width: 13px;
+    height: 10px;
+    position: absolute;
+    top: 8px;
+    left: 513px;
+ }
+ .arrow5{
+    width: 13px;
+    height: 10px;
+    position: absolute;
+    top: 95px;
+    left: 513px;
+ }
+ .arrow6{
+    width: 13px;
+    height: 10px;
+    position: absolute;
+    top: 184px;
+    left: 513px;
+ }
+ .arrow7{
+    width: 13px;
+    height: 10px;
+    position: absolute;
+    top: 272px;
+    left: 513px;
+ }
+ .arrow8{
+    width: 13px;
+    height: 10px;
+    position: absolute;
+    top: 365px;
+    left: 513px;
+ }
