@@ -6,7 +6,7 @@
 {
     width: 234px;
     height: 115.17px;
-    position: fixed;
+    position: absolute;
     top: 61px;
     left: 189px;
 }
@@ -15,12 +15,12 @@
     height: 900px;
     background: #EFECE5;
     border-radius: 50%;
-    position: fixed;
+    position: absolute;
     top: -650px;
     left: -478px;
 }
 nav{
-    position: fixed;
+    position: absolute;
     top:108px;
     display: flex;
 }
@@ -34,28 +34,28 @@ ul{
     border: 2px solid white;
     width: 96px;
     height: 33px;
-    position: fixed;
+    position: absolute;
     left: 617px;
 }
 #li-2{
     border: 2px solid white;
     width: 216px;
     height: 33px;
-     position: fixed;
+     position: absolute;
      left: 765px;
 }
 #li-3{
     border: 2px solid white;
     width: 186px;
     height: 33px;
-    position: fixed;
+    position: absolute;
     left: 1020px;
 }
 #li-4{
     border: 2px solid white;
     width: 78px;
     height: 33px;
-    position: fixed;
+    position: absolute;
     left: 1245px;
 }
 ul li a {
@@ -67,12 +67,13 @@ ul li a {
 #button{
     width: 194px;
     height: 47px;
-    position:fixed;
-    top: 96px;  
+    position:absolute;
+    top: -16px;  
     left: 1375px; 
     border-radius: 9px;
     background-color: #003A70;
     border-color: white;
+
 }
 #button p {
     font-family: 'Inter', sans-serif;
@@ -85,7 +86,7 @@ ul li a {
 #image{
     width: 1620px;
     height: 590px;
-    position: fixed;
+    position: absolute;
     top: 220px;
     left: 73px;
     color: #000000;
@@ -94,7 +95,7 @@ ul li a {
 {
     width: 270px;
     height: 117px;
-    position: fixed;
+    position: absolute;
     top: 620px;
     left: 742px;
     font-family: 'Des Montilles', 'Georgia', 'Cambria', 'Times New Roman', serif;
@@ -108,7 +109,7 @@ ul li a {
 {
     width: 381px;
     height: 29px; 
-    position: fixed;
+    position: absolute;
     top: 704px;
     left: 681px;
     font-family: 'Inter', sans-serif; 
@@ -116,4 +117,226 @@ ul li a {
     font-size: 24px;
     line-height: 100%;
     color: #ffffff;
+}
+#intro-heading{
+    width: 481px;
+    height: 73px;
+    position: absolute;
+    top: 853px;
+    left: 628px;
+
+    width: 700;
+    font-size: 60px;
+    line-height: 100%;
+    color: #273F6A;
+;
+}
+#intro-para{
+    width: 834px;
+    height: 184px;
+    position: absolute;
+    top: 954px;
+    left: 450px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+    text-align: center;
+
+
+    
+}
+#mediators-box, #opleidingen-box, #incompany-box
+{
+    width: 300px;
+    height:336px;
+  
+}
+#mediators-box {
+    position: absolute;
+    top: 1120px;
+    left: 351px;
+    background-color: #CACDD3;
+    overflow: hidden;
+}
+#opleidingen-box {
+    position: absolute;
+    top: 1120px;
+    left: 721px;
+    background-color: #EFECE5;
+    overflow: hidden;
+}
+#incompany-box {
+    position: absolute;
+    top: 1120px;
+    left: 1087px;
+    background-color: #EFA4A3;
+    overflow: hidden
+;
+}
+.bg-color-mediators{
+    height: 329px;
+    width: 361px;
+background-color: rgba(230, 235, 240, 0.6); /* Lighter, closer to white */
+    border-radius: 50%;
+    position:absolute;
+    top:-140px;
+    left: -140px;
+
+}
+.bg-color-opleidingen{
+background: rgba(250, 248, 245, 1);  /* Light beige, almost white */
+
+    height: 329px;
+    width: 361px;
+    border-radius: 50%;
+    position:absolute;
+    top:-140px;
+    left: -140px;
+
+;
+}
+.bg-color-incompany{
+
+background: rgba(250, 220, 220, 0.6);  /* Light pink, semi-transparent */
+    height: 329px;
+    width: 361px;
+    border-radius: 50%;
+    position:absolute;
+    top:-140px;
+    left: -140px;
+}
+#mediators-box img{
+    width: 136px;
+    height: 136px;
+    position:absolute;
+    top: 12px;
+    left: 23px;
+
+}
+#opleidingen-box img{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 18px;
+    left: 20px;   
+}
+#incompany-box img{
+    width: 120px;
+    height: 129px;
+    position: absolute;
+    top: 18px;
+    left: 21px;
+}
+#mediatiors-heading{
+    width: 198px;
+    height: 50px;
+    position: absolute;
+    top: 138px;
+    left: 20px;
+    font-family: optima;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color:#273F6A;
+    
+}
+#opleidingen-heading {
+    width: 198px;
+    height: 50px;
+    position: absolute;
+    top: 138px;
+    left: 20px;
+    font-family: optima;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #273F6A;
+}
+#incompany-heading{
+    width: 198px;
+    height: 50px;
+    position: absolute;
+    top: 135px;
+    left: 19px;
+    font-family: optima;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    color: #003A70;
+
+}
+#mediatiors-para{
+    width: 252px;
+    height: 111px;
+    position: absolute;    
+    top: 199px;
+    left: 20px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+
+}
+#opleidingen-para{
+    width: 252px;
+    height: 111px;
+    position: absolute;
+    top: 199px;
+    left: 20px;
+    font-family: Inter;
+    font-weight: 300px;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+}
+#incompany-para{
+    width: 252px;
+    height: 111px;
+    position: absolute;
+    top: 199px;
+    left: 24px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size:16px;
+    line-height: 100%;
+    color: #000000;
+}
+#opleidingen-link{
+    text-decoration: none;
+    width: 170px;
+    height: 31px;
+    position: absolute;
+    top: 1482px;
+    left: 741px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+  
+}
+#incompany-link{
+    text-decoration: none;
+    width: 241px;
+    height: 16px;
+    position: absolute;
+    top: 1482px;
+    left: 1111px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #000000;
+
+
+}
+.arrow3{
+  width: 13px;
+  height: 10px;
+  position: absolute;
+  top: 1482px;
+  left: 1356px;
 }
