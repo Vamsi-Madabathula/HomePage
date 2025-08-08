@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
+body{
+    max-width: 1767px;
+    width: 100%;
+}
 #company-logo
 {
     width: 234px;
@@ -316,7 +321,7 @@ background: rgba(250, 220, 220, 0.6);  /* Light pink, semi-transparent */
     font-size: 16px;
     line-height: 100%;
     color: #000000;
-    border: 2px solid black;
+ 
 }
 .arrow1{
     width: 13px;
@@ -338,7 +343,7 @@ background: rgba(250, 220, 220, 0.6);  /* Light pink, semi-transparent */
     font-size: 16px;
     line-height: 100%;
     color: #000000;
-        border: 2px solid black;
+       
 
   
 }
@@ -362,7 +367,6 @@ background: rgba(250, 220, 220, 0.6);  /* Light pink, semi-transparent */
     font-size : 16px;
     line-height: 100%;
     color: #000000;
-border: 2px solid black;
 
 }
 .arrow3{
@@ -393,7 +397,7 @@ border: 2px solid black;
     font-size: 36px;
     line-height: 100%;
     text-align: center;
-    border: 2px solid black;
+   
 }
 #rectangle-para-text{
     color: #9F8A58;
@@ -438,7 +442,7 @@ border: 2px solid black;
     position: absolute;
     top: 2220px;
     left: 858px;
-    border: 2px solid black;
+  
 }
 
  
@@ -497,3 +501,326 @@ border: 2px solid black;
     top: 365px;
     left: 513px;
  }
+ #line1{
+    border-bottom:1px solid #003A70;
+    width: 527px;
+    height: 0px;
+    position: absolute;
+    top: 67px;
+    left:1px;
+}
+ #line2{
+    border-bottom: 1px solid #003A70;
+    width: 527px;
+    height: 0px;
+    position: absolute;
+    top: 154px;
+    left: 1px;
+}
+ #line3{
+    border-bottom: 1px solid #003A70;
+    width: 527px;
+    height: 0px;
+    position: absolute;
+    top: 245px;
+    left: 1px;
+} #line4{
+    border-bottom: 1px solid #003A70;
+    width: 527px;
+    height: 0px;
+    position: absolute;
+    top: 329px;
+    left: 1px;
+}
+#img-details{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.click-button{
+    width: 194px;
+    height: 47px;
+    position: absolute;
+    top: 2655px;
+    left: 858px;
+    background-color: #EFA4A3;
+    border-radius: 9px;
+
+}
+.button-name{
+    color:#FFFFFF;
+    width: 160px;
+    height: 31.76px;
+    position: absolute;
+    top: 14.43px;
+    left: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    
+}
+.button-arrow{
+    width: 13px;
+    height: 12.7px;
+    position: absolute;
+    /* top: 3.78px; */
+    left: 146px;
+    font-size: 13px;
+}
+/* #color-container2{  circle is displays right its size part
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    position: absolute;
+    top: 2716px;
+    left: 946px;
+    background-color:#EFECE5;
+
+} */
+footer{
+    background-color:#F5F5F5;
+    width: 1767px;
+    height: 665px;
+    position: absolute;
+    top: 2947px;
+    
+}
+#logo-container{
+    width: 219px;
+    height: 107.33px;
+    position: absolute;
+    top: 99px;
+    left: 181px;
+}
+/* #logo-circle{
+} */
+#logo-name{
+    width: 79.88px;
+    height: 61.65px;
+    position: absolute;
+    top: 9.91px;
+    left: 13.54px;
+
+}
+#logo-details{
+    width: 102.69px;
+    height: 64.03px;
+     position: absolute;
+     top: 23.91px;
+    left: 116.31px;
+ 
+}
+.footer-Opleidingen{
+    width: 198px;
+    height: 50px;
+    position: absolute;
+    top: 123px;
+    left: 477px;
+    font-family: optima;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+ 
+    color: #273F6A;
+}
+.opeidingin-details
+{
+    width: 317px;
+    height: 291px;
+    position: absolute;
+    top: 168px;
+    left: 477px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    display:block;
+    color: #000000;
+}
+.footer-Aanmelden{
+    width: 198px;
+    height: 50px;
+    position: absolute;
+    top: 123px;
+    left: 885px;
+    font-family: optima;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color:#273F6A;
+
+
+}
+.aanmelden-details{
+    width: 317px;
+    height: 136px;
+    position: absolute;
+    top: 168px;
+    left: 885px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    display:block;
+    color: #000000;
+}
+.footer-Mediation{
+    width: 198px;
+    height: 50px;
+    position: absolute;
+    top: 301px;
+    left: 885px;
+    font-family: optima;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color:#273F6A;
+
+}
+.mediation-details{
+  width: 317px;
+    height: 136px;
+    position: absolute;
+    top: 346px;
+    left: 885px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    display:block;
+    color: #000000;   
+
+}
+.footer-contact{
+    width: 198px;
+    height: 50px;
+    position: absolute;
+    top: 123px;
+    left: 1293px;
+    font-family: optima;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color:#273F6A;
+    
+}
+.Contact-details{
+    width: 278px;
+    height: 119px;
+    position: absolute;
+    top: 168px;
+    left: 1293px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    display:block;
+    color: #000000;   
+  
+}
+.footer-adres{
+      width: 198px;
+    height: 50px;
+    position: absolute;
+    top: 324px;
+    left: 1293px;
+    font-family: optima;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color:#273F6A;
+}
+.adres-details{
+   width: 278px;
+    height: 58px;
+    position: absolute;
+    top: 366px;
+    left: 1293px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 180%;
+    display:block;
+    color: #000000;   
+     
+}
+.adres-details li span{
+    font-size: 12px;
+}
+.ContactmetMTi-button{
+    width: 194px;
+    height: 47px;
+    position: absolute;
+    top: 461px;
+    left: 1293px;
+    border-radius: 9px;
+    background-color: #C4CDD3;
+    color: #ffffff;
+    border: none;
+}
+.ContactmetMTi-button p{
+    width: 160px;
+    height: 31.76px;
+    position: absolute;
+    top: 14.43px;
+    left: 20px;
+
+}
+.ContactmetMTi-button p span{
+    width: 13px;
+    height: 12.7px;
+    position: absolute;
+    top:2.35px;
+    left: 146px;
+    
+}
+.companys-components{
+    width: 579px;
+    height: 55px;
+    position:absolute;
+    top: 535px;
+    left: 626px;
+}
+.img-van{
+    width: 70px;
+    height: 35px;
+    position: absolute;
+    top: 12px;
+    left: 0px;
+
+   
+}
+.img-nmv{
+    width: 103px;
+    height: 29px;
+    position: absolute;
+    top: 15px;
+    left: 129px;
+}
+.img-lvvv{
+    width: 118px;
+    height: 39px;
+    position: absolute;
+    top: 8px;
+    left: 291px;
+}
+.img-mfa{
+    width: 111px;
+    height: 55px ;
+    position: absolute;
+    top: 0;
+    left: 468px;
+}
+.copy-rights{
+    width: 746px;
+    height: 64px;
+    position: absolute;
+    top: 601px;
+    left: 549px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    display: flex; 
+    justify-content: center;
+}
