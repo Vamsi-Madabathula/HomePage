@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    border: 1px solid black;
 }
 
 body{
@@ -401,6 +402,7 @@ background: rgba(250, 220, 220, 0.6);  /* Light pink, semi-transparent */
 }
 #rectangle-para-text{
     color: #9F8A58;
+ 
 
 }
 #meeting-image{
@@ -617,7 +619,7 @@ footer{
     position: absolute;
     top: 123px;
     left: 477px;
-    font-family: optima;
+     font-family: 'Optima', 'Segoe UI', 'Candara', 'Noto Sans', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
@@ -644,7 +646,7 @@ footer{
     position: absolute;
     top: 123px;
     left: 885px;
-    font-family: optima;
+    font-family: 'Optima', 'Segoe UI', 'Candara', 'Noto Sans', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
@@ -671,7 +673,7 @@ footer{
     position: absolute;
     top: 301px;
     left: 885px;
-    font-family: optima;
+   font-family: 'Optima', 'Segoe UI', 'Candara', 'Noto Sans', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
@@ -698,7 +700,7 @@ footer{
     position: absolute;
     top: 123px;
     left: 1293px;
-    font-family: optima;
+    font-family: 'Optima', 'Segoe UI', 'Candara', 'Noto Sans', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
@@ -725,7 +727,7 @@ footer{
     position: absolute;
     top: 324px;
     left: 1293px;
-    font-family: optima;
+    font-family: 'Optima', 'Segoe UI', 'Candara', 'Noto Sans', sans-serif;
     font-weight: 400;
     font-size: 24px;
     line-height: 100%;
